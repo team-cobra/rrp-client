@@ -1,0 +1,19 @@
+{
+  "name": "rrp-client",
+  "version": "0.0.1",
+  "description": "Einfache RRP Implementierung ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-cobra/rrp-client.git"
+  },
+  "author": "Team Cobra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-cobra/rrp-client/issues"
+  },
+  "homepage": "https://github.com/team-cobra/rrp-client#readme"
+}

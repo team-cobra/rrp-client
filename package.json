@@ -2,9 +2,16 @@
   "name": "rrp-client",
   "version": "0.0.1",
   "description": "Einfache RRP Implementierung ",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --skipLibCheck"
   },
   "repository": {
     "type": "git",
@@ -15,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/team-cobra/rrp-client/issues"
   },
-  "homepage": "https://github.com/team-cobra/rrp-client#readme"
+  "homepage": "https://github.com/team-cobra/rrp-client#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
